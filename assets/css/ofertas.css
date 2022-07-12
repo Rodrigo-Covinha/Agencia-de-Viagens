@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+// Functions first
+@import "../node_modules/bootstrap/scss/functions";
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: blue;
+}
+body {
+  display: inline;
+  background-image: url(../img/planesun.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.card {
+  width: 450px;
+  height: 250px;
+  padding: 15px;
+  margin: 3%;
+  
+  
+}
+#card-header {
+  margin-top: 7%;
+  width: 50vw;
+  border-radius: 2px;
+  border-color: blueviolet;
+  display: inline-table;
+  margin-left: 8%;
+}
+#card-header img {
+  width: 80vw;
+  height: 300px;
+  background-size: cover;
+}
+.card img {
+  width: 420px;
+  height: 150px;
+}
+#card1 {
+  display: inline-block;
+  margin-left: 16vw;
+  margin-right: 0vw;
+  margin-bottom: 3%;
+}
+#card2 {
+  margin-left: 16vw;
+  margin-right: 10vw;
+  display: inline-block;
+}
+
+/* FORMAS DE PAGAMENTO */
+.formas {
+	
+	font-size: medium;
+	text-transform: uppercase;
+	margin-top: 40px;
+	padding: 15px;
+}
+#PG {
+	height: 20px;
+	display: inline-flex;
+}
+#PG a {
+	
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+}
+#PG a {
+	list-style:none; 
+	text-decoration:none; 
+} 
+#PG a img {
+	height: 40px;
+	width: 80px;
+}
+/* FORMAS DE PAGAMENTO */
+
+/*         FOOTER              */
+
+.footer-bs {
+	background-color: #3c3d41;
+	opacity: 0.9;
+	padding: 5px 5px;
+	color: rgba(255,255,255,1.00);
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+}
+  
+.row {
+	margin-top: 80%;
+	display: flex; 
+	flex-wrap: nowrap;
+}
+  
+#logo-footer > img {
+	margin-left: 45%;
+	max-width: 340px;
+	max-height: 120px;
+	
+}
+.footer-brand {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+  
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { 
+	
+	padding:25px 25px;   
+}
+  
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+  
+.footer-bs .footer-brand h2 { 
+	margin:0px 0px 20px; 
+	
+}
+  
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+  
+.footer-bs .footer-nav ul.pages { 
+	list-style:none; 
+	text-decoration:none; 
+	padding:10px;
+}
+  
+.footer-bs .footer-nav ul.pages li { 
+	padding:8px 5px;
+}
+  
+.footer-bs .footer-nav ul.pages a { 
+	color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase;
+	
+}
+  
+.footer-bs .footer-nav ul.pages a:hover { 
+	color: #6298e1;
+	text-decoration:none; 
+	transition: color 900ms;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+}
+.footer-bs .footer-nav h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom:16px;
+  
+}
+  
+.footer-bs .footer-nav ul.list { 
+	list-style:none; 
+	padding:10px; 
+}
+  
+.footer-bs .footer-nav ul.list li { 
+	padding: 0px;
+}
+  
+.footer-bs .footer-nav ul.list a { 
+	color:rgba(255,255,255,0.80); 
+	
+}
+#logof {
+	width: 25%;
+	margin-right: 15%;
+	margin-left: 2%;
+}
+#menu {
+	list-style:none;
+	text-decoration: none;
+	width: auto;
+}
+#news {
+	width: 30%;
+}
+#social {
+	width: auto ;
+}
+  
+.footer-bs .footer-nav ul.list a:hover { 
+	color: #6298e1; 
+	text-decoration:none; 
+	transition: color 900ms;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+  
+}
+  
+.footer-bs .footer-social ul { 
+	list-style:none; 
+	padding:5px; 
+	text-decoration:none; 
+}
+  
+  .footer-bs .footer-social h4 {
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 16px;
+}
+  
+.footer-bs .footer-social li { padding:12px 10px;}
+  
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+  
+.footer-bs .footer-social a:hover { 
+	color: #6298e1;
+	text-decoration:none; 
+	transition: color 900ms;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+}
+  
+.footer-bs .footer-ns h4 {
+	font-size: 15px;
+	text-transform: none;
+	letter-spacing: 3px;
+	margin-bottom:20px;
+	margin-right: 10px;
+}
+  
+.footer-bs .footer-ns p { 
+	font-size:14px; color:rgba(255,255,255,0.70);
+	position: relative;
+	padding-bottom: 10px;
+}
+  
+.form-control {
+	width: 350px;
+	height: 35px;
+}
+  
+.btn-news {
+	width: 40px;
+	height: 39px;
+	position: absolute;
+	transform: translate( 3%, -7%);
+}
+  
+#letter {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	
+}
+  
+.copyright {
+	text-align: center;  
+	color: rgba(197, 195, 195, 0.637);
+	font-size: small;
+	background-color: black;
+	opacity: 0.8;
+	height: 60px;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+}
+	
+  
+  @media (min-width: 450px) {
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { margin-right: 50px; border-left:solid 2px rgba(255,255,255,0.10); }
+}  
