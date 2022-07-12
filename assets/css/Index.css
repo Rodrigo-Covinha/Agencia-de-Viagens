@@ -197,11 +197,11 @@ margin-bottom:16px;
   text-align: center;  
 	color: rgba(197, 195, 195, 0.637);
 	font-size: small;
-	background-color: black;
+	background-color: rgb(27, 27, 27);
 	opacity: 0.8;
-	width: 170vh;
+	width: 97vw;
 	margin: 0;
-	padding: 30px;
+	padding: 20px;
 }
 /*         FOOTER              */
 .btn-primary{

@@ -9,8 +9,7 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  
   background-color: white;
   
 }
@@ -18,7 +17,7 @@ body {
 	margin-right: 2%;
 	font-weight:bold;
 	text-shadow: 3px 3px 2px rgb(73, 73, 73);
-  text-align-last: right;
+  	text-align-last: right;
 }
 .card-title {
 	font-size: 4rem; 
@@ -53,9 +52,6 @@ body {
   height: 400px;
   
 }
-
-
-
 
 
 /* FORMAS DE PAGAMENTO */
@@ -93,9 +89,9 @@ body {
 	opacity: 0.9;
 	padding: 5px 5px;
 	color: rgba(255,255,255,1.00);
-  width: 99.3vw;
-  transform: translate( -3.7%, 0%);
-  margin: 0;
+  	width: 99.3vw;
+  	transform: translate( -3.7%, 0%);
+  	margin: 0;
 }
   
 .row {
@@ -140,8 +136,10 @@ body {
 }
   
 .footer-bs .footer-nav ul.pages a { 
-	color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase;
-	
+	color:rgba(255,255,255,1.00); 
+	font-weight:bold; 
+	text-transform:uppercase;
+	text-decoration:none; 
 }
   
 .footer-bs .footer-nav ul.pages a:hover { 
@@ -213,7 +211,10 @@ body {
   
 .footer-bs .footer-social li { padding:12px 10px;}
   
-.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a { 
+	color:rgba(255,255,255,1.00);
+	text-decoration:none; 
+}
   
 .footer-bs .footer-social a:hover { 
 	color: #6298e1;

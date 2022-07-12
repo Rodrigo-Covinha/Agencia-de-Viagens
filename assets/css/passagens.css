@@ -11,7 +11,6 @@ body {
 	background-image: url(../img/aviao\ asa.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
-	text-decoration: none;
 }
 /* FORMAS DE PAGAMENTO */
 .formas {
@@ -114,8 +113,11 @@ body {
 	width: 100%;
 }
 #titulo {
-	margin-bottom: 30px;
-	
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-weight:bold;
+	text-shadow: 3px 3px 2px rgb(73, 73, 73);
+	font-size: 2.7rem;
 }
 #Voo {
 	text-transform: uppercase;
@@ -167,18 +169,18 @@ body {
 	transform: translate(-125%, 275%);
 }	
 #inlineFormSelectPref1 {
-	transform: translate(-60%, 130%);
-	width: 90px;
-	height: 40px;
+	transform: translate(-60%, 149%);
+	width: 70px;
+	height: 35px;
 }
 #Adulto {
 	font-size: small;
 	transform: translate( -70%, 580%);
 }
 #inlineFormSelectPref2 {
-	height: 40px;
-	width: 90px;
-	transform: translate(-60%, 100%);
+	height: 35px;
+	width: 70px;	
+	transform: translate(-60%, 115%);
 }
 #Criança {
 	font-size: small;
@@ -186,7 +188,7 @@ body {
 }
 #Enviar {
 	width: 120px;
-	transform: translate(-20%, 130%);
+	transform: translate(-20%, 140%);
 }	
 .list {
 	display: flex;
@@ -249,68 +251,71 @@ body {
 	padding:10px;
 }
   
-  .footer-bs .footer-nav ul.pages li { 
+.footer-bs .footer-nav ul.pages li { 
 	padding:8px 5px;
-  }
+}
   
-  .footer-bs .footer-nav ul.pages a { 
-	color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase;
+.footer-bs .footer-nav ul.pages a { 
+	color:rgba(255,255,255,1.00); 
+	font-weight:bold; 
+	text-transform:uppercase;
+	text-decoration: none;
 	
-  }
+}
   
-  .footer-bs .footer-nav ul.pages a:hover { 
+.footer-bs .footer-nav ul.pages a:hover { 
 	color: #6298e1;
 	text-decoration:none; 
 	transition: color 900ms;
 	transition-duration: 0.4s;
 	transition-timing-function: ease-in-out;
-  }
-  .footer-bs .footer-nav h4 {
+}
+.footer-bs .footer-nav h4 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom:16px;
   
-  }
+}
   
-  .footer-bs .footer-nav ul.list { 
+.footer-bs .footer-nav ul.list { 
 	list-style:none; 
 	padding:10px; 
-  }
+}
   
-  .footer-bs .footer-nav ul.list li { 
+.footer-bs .footer-nav ul.list li { 
 	padding: 0px;
-  }
+}
   
-  .footer-bs .footer-nav ul.list a { 
+.footer-bs .footer-nav ul.list a { 
 	color:rgba(255,255,255,0.80); 
 	
-  }
-  #logof {
+}
+#logof {
 	width: 25%;
 	margin-right: 15%;
 	margin-left: 2%;
-  }
-  #menu {
+}
+#menu {
 	list-style:none;
 	text-decoration: none;
 	width: auto;
-  }
-  #news {
+}
+#news {
 	width: 30%;
-  }
-  #social {
+}
+#social {
 	width: auto ;
-  }
+}
   
-  .footer-bs .footer-nav ul.list a:hover { 
+.footer-bs .footer-nav ul.list a:hover { 
 	color: #6298e1; 
 	text-decoration:none; 
 	transition: color 900ms;
 	transition-duration: 0.4s;
 	transition-timing-function: ease-in-out;
   
-  }
+}
   
 .footer-bs .footer-social ul { 
 	list-style:none; 
@@ -318,59 +323,62 @@ body {
 	text-decoration:none; 
 }
   
-  .footer-bs .footer-social h4 {
+.footer-bs .footer-social h4 {
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-bottom: 16px;
-  }
+}
   
-  .footer-bs .footer-social li { padding:12px 10px;}
+.footer-bs .footer-social li { padding:12px 10px;}
   
-  .footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a { 
+	color:rgba(255,255,255,1.00);
+	text-decoration: none;
+}
   
-  .footer-bs .footer-social a:hover { 
+.footer-bs .footer-social a:hover { 
 	color: #6298e1;
 	text-decoration:none; 
 	transition: color 900ms;
 	transition-duration: 0.4s;
 	transition-timing-function: ease-in-out;
-  }
+}
   
-  .footer-bs .footer-ns h4 {
+.footer-bs .footer-ns h4 {
 	font-size: 15px;
 	text-transform: none;
 	letter-spacing: 3px;
 	margin-bottom:20px;
 	margin-right: 10px;
-  }
+}
   
-  .footer-bs .footer-ns p { 
+.footer-bs .footer-ns p { 
 	font-size:14px; color:rgba(255,255,255,0.70);
 	position: relative;
 	padding-bottom: 10px;
-  }
+}
   
-  .form-control {
+.form-control {
 	width: 350px;
 	height: 35px;
-  }
+}
   
-  .btn-news {
+.btn-news {
 	width: 40px;
 	height: 39px;
 	position: absolute;
 	transform: translate( 3%, -7%);
-  }
+}
   
-  #letter {
+#letter {
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
 	
-  }
+}
   
-  .copyright {
+.copyright {
 	text-align: center;  
 	color: rgba(197, 195, 195, 0.637);
 	font-size: small;
@@ -380,7 +388,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 20px;
-  }
+}
 	
   
   @media (min-width: 450px) {

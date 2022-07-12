@@ -32,7 +32,7 @@ body {
   margin-top: 7%;
   width: 50vw;
   border-radius: 2px;
-  border-color: blueviolet;
+  border-color: lightgray;
   display: inline-table;
   margin-left: 8%;
 }
@@ -139,7 +139,10 @@ body {
 }
   
 .footer-bs .footer-nav ul.pages a { 
-	color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase;
+	color:rgba(255,255,255,1.00); 
+	font-weight:bold; 
+	text-transform:uppercase;
+	text-decoration:none; 
 	
 }
   
@@ -212,7 +215,10 @@ body {
   
 .footer-bs .footer-social li { padding:12px 10px;}
   
-.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a { 
+	color:rgba(255,255,255,1.00);
+	text-decoration:none; 
+}
   
 .footer-bs .footer-social a:hover { 
 	color: #6298e1;
