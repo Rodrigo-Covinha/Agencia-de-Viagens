@@ -1,138 +1,277 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/ofertas.css" />
-
-	<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/ofertas.css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/07bf0ab5e2.js" crossorigin="anonymous"></script>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/07bf0ab5e2.js" crossorigin="anonymous"></script>    
-
-    <title>Ofertas CODE travel</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+  <title>Pacotes CodeTravel</title>
 </head>
 <body>
-	<!--                    HEADER                    -->
-	<header>
-		<nav id="navbar"class="navbar bg-dark fixed-top navbar-light opacity-75">
-			<div id="logo" class="container-fluid">
-			  <a class="navbar-brand" href="./Index.Html">
-				<img  src="./assets/logo/CODE-travel-border-SF1.png" alt=""  width="140" height="50" class="d-inline-block align-text-bottom">
-			  </a>
-			</div>
-		  </nav>
-	</header>
-	<!--                    HEADER                  -->
+  
+  <!--                    HEADER  START                  -->
+	  <header id="header" class="header">
+   <nav id="Nav"class="navbar bg-dark fixed-top navbar-light opacity-75">
+       <ul class="desk">
+           <li class="logo">
+             <a href="#"><img src="./assets/logo/CODE-travel-border-SF1.png" /></a>
+           </li>
+             <li><a class="active" href="./Index.Html"><i class="fa-solid fa-house">  HOME</i></a></li>
+               <li><a href="./Destinos.html"><i class="fa-solid fa-plane">  DESTINOS</i></a></li>
+                 <li><a href="./Ofertas.html"><i class="fa-solid fa-suitcase">  OFERTAS</i></a></li>
+                     <li><a href="./Contato.html"><i class="fa-solid fa-phone">  CONTATO</i></a></li>
+                       <a href="./Login.html" target="_blank" a class="login"><i class="fa-solid fa-user" alt="login"> ENTRE</i></a>
+                     <li class="socialmedia">
+                    
+                  <a hfef="#"><i class="fa-brands fa-instagram"></i></a>
+                <a hfef="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+           </li>
+         </ul>
+           <!-- Responsividade mobile da Navbar -->
+         <div class="mobile">    
+           <div class="logo-mob"> 
+             <a hfef="#"><img src="./assets/logo/CODE-travel-border-SF1.png" /></a>
+           </div> 
+           
+             <div id="" class="menu-icon"><a hfef="dropdown"><i id="hamburguer" class="fa-solid fa-bars fa-2x"></i></a> 
+               <div id="listmenu">  
+                 <ul >
+                   <li><a href="./Index.Html"><i class="fa-solid fa-house">  </i> HOME</a></li>
+                   <li><a href="./Destinos.html"><i class="fa-solid fa-plane">  </i> DESTINOS</a></li>
+                   <li><a href="./Ofertas.html"><i class="fa-solid fa-suitcase"> </i> OFERTAS</a></li>
+                   <li><a href="./Contato.html"><i class="fa-solid fa-phone"> </i> CONTATO</a></li>
+                 </ul>
+               </div>   
+             </div>   
+         </div>
+     </nav> 
+    </header> 
+   
+	<!--                    HEADER END                 -->
 
-	<!--                    MAIN                    -->
-	<main>
-		<div id="card-header"class="card mb-3">
-			<img src="./assets/img/praia.jpg" class="card-img-top" alt="...">
-			<div class="card-body">
-				<h1 class="card-title">Destinos Incríveis</h1>
-				<h3 class="card-text">Escolha um dos destinos e aproveite descontos incríveis para primeira compra no site.</h3>
-				<h5 class="card-text"><small class="text-muted">Selecionamos as melhores ofertas para voçê.</small></h5>
-			</div>
-		</div>
-				  
-		<div id="card1" class="row row-cols-1 row-cols-md-2 g-4">
-			<div class="col">
-			  <div class="card">
-				<img src="./assets/img/RIo.jpg" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Rio de Janeiro</h5>
-					<p class="card-text">Conheça o Rio, 7 dias na cidade Maravilhosa. <strong>De:<del> R$1200,00</del> Por: <font color="red">R$ 999,00</strong> </font></p>
-				  <a href="#" class="btn btn-primary">Pegar Oferta</a>
-				</div>
-			  </div>
-			</div>
-			<div class="col">
-			  <div class="card">
-				<img src="./assets/img/bonitoRioGsul.png" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Bonito</h5>
-					<p class="card-text">Conheça Bonito, 3 dias na com mergulhos e trilhas na natureza. <strong>De:<del> R$1300,00</del> Por: <font color="red">R$ 999,00</strong> </font></p>
-				  <a href="#" class="btn btn-primary">Pegar Oferta</a>
-				</div>
-			  </div>
-			</div>
-			<div class="col">
-				<div class="card">
-				  <img src="./assets/img/serraMantiMinas.png" class="card-img-top" alt="...">
-				  <div class="card-body">
-					<h5 class="card-title">Minas Gerais</h5>
-					<p class="card-text">Conheça Serra da Mantiqueira, 5 dias trilhas e Aventura. <strong>De:<del> R$900,00</del> Por: <font color="red">R$ 599,00</strong> </font></p>
-					<a href="#" class="btn btn-primary">Pegar Oferta</a>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col">
-				<div class="card">
-				  <img src="./assets/img/RIo.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-					<h5 class="card-title">Rio de Janeiro</h5>
-					<p class="card-text">Conheça o Rio, 7 dias na cidade Maravilhosa. <strong>De:<del> R$1200,00</del> Por: <font color="red">R$ 999,00</strong> </font></p>
-					<a href="#" class="btn btn-primary">Pegar Oferta</a>
-				  </div>
-				</div>
-			  </div>
-		  </div>
-		  <div id="card2" class="row row-cols-1 row-cols-md-2 g-4">
-			<div class="col">
-			  <div class="card">
-				<img src="./assets/img/AparecidaSpaulo.png"class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">São Paulo</h5>
-					<p class="card-text">Cidade de Aparecida, 4 dias na cidade. <strong>De:<del> R$ 900,00</del> Por: <font color="red">R$ 699,00</strong> </font></p>
-				  <a href="#" class="btn btn-primary">Pegar Oferta</a>
-				</div>
-			  </div>
-			</div>
-			<div class="col">
-			  <div class="card">
-				<img src="./assets/img/NatalRioGrande.png" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Rio Grande do Norte</h5>
-					<p class="card-text">Conheça Natal, 8 dias + passeios de lancha. <strong>De:<del> R$1500,00</del> Por: <font color="red">R$ 1199,00</strong> </font></p>
-				  <a href="#" class="btn btn-primary">Pegar Oferta</a>
-				</div>
-			  </div>
-			</div>
-			<div class="col">
-				<div class="card">
-				  <img src="./assets/img/portoBahia.png" class="card-img-top" alt="...">
-				  <div class="card-body">
-					<h5 class="card-title">Porto Seguro -Ba</h5>
-					<p class="card-text">Conheça a Bahia, 5 dias na cidade com Maravilhosa prias. <strong>De:<del> R$1300,00</del> Por: <font color="red">R$ 999,00</strong> </font></p>
-					<a href="#" class="btn btn-primary">Pegar Oferta</a>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col">
-				<div class="card">
-				  <img src="./assets/img/aviaomapa.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-					<h5 class="card-title">Rio de Janeiro</h5>
-					<p class="card-text">Conheça o Rio, 7 dias na cidade Maravilhosa. <strong>De:<del> R$1200,00</del> Por: <font color="red">R$ 999,00</strong> </font></p>
-					<a href="#" class="btn btn-primary">Pegar Oferta</a>
-				  </div>
-				</div>
-			  </div>
-		  </div>
-		</div>
-	</main>  
-    <!--                    MAIN                    -->
+	<!--                    MAIN START                   -->
+  <main>
+    <style>
+      body {
+        background-image: url(./assets/img/aviao\ asa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 10%;
+        
+        
+      }
+    </style>
+    <div class="container-fluid">
+      <div class="px-lg-5">
+  
+      <!-- For demo purpose -->
+      <div id="card-titulo"class="card bg-dark text-white">
+        <img src="./assets/img/goldengate.jpg" class="card-img" alt="Home">
+        <div id="Viagens"class="card-img-overlay">
+          <h1 class="card-title">Destinos Internacionais</h1>
+          <h2 id="text1" class="card-text">Pacotes com os destinos Internacionais mais procurados!</h2>
+          <h4 id="text2" class="card-text">Com a CodeTravel voçê vai mais longe.</h4>
+        </div>
+      </div>
+      <!-- End -->
+  
+      <div class="row">
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/Eifellparis3671671.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Paris</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE PARIS</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/Australia.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Australia</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE AUSTRALIA</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/NY.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">New York</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE NY</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/Italia.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Itália</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE ITALIA</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/JAPAN.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Japão</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE JAPÃO</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/piramide.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Piramides do Egito</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE EGITO</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/London.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Londres</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE LONDRES</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/India1.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">India</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE INDIA</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/canada.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Canada</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE CANADA</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/china.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">China</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE CHINA</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/Russia.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Russia</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE RUSSIA</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+  
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="./assets/img/Peru.jpg" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" class="text-dark">Peru</a></h5>
+              <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><span class="font-weight-bold"><strong>PACOTE PERU</strong></span></p>
+                <a id="pegar" href="#" class="btn btn-primary">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+    </div>
+  </main>
+  <!--                    MAIN END                   -->
 	
-	<!----------- Footer ------------>
+	<!----------- Footer  Start ------------>
 
-	<div class="rodape">
-		<div class="row" style="text-align:center;">
-		</div>
 	  <footer class="footer-bs">
-		  <div id="roda"class="row">
+		  <div id="roda"class="row2">
 			<div id="logof"class="col-md-3 footer-brand animated fadeInLeft">
 				<h2 ><a id="logo-footer"hfef="./index.html"><img src="./assets/logo/CODE-travel-border-SF1.png" /></a></h2>
 				<h4 class="formas"> Formas de Pagamento </h4>
@@ -146,20 +285,19 @@
 			  </div>
 			  </div>
 			<div id="menu" class="col-md-4 footer-nav animated fadeInUp">
-				<h4> Menu → </h4>
+				<h4> Menu</h4>
 				<div class="col-md-6">
-					  <ul class="pages">
-						  <li><a href="./Index.Html">Home</a></li>
-						  <li><a href="./Passagens.html">Passagens</a></li>
-						  <li><a href="./Pacotes.html">Pacotes</a></li>
-						  <li><a href="./Ofertas.html">Ofertas</a></li>
-						  <li><a href="./Contato.html">Contato</a></li>
-					  </ul>
+          <ul class="pages">
+            <li><a href="./Index.Html">Home</a></li>
+            <li><a href="./Destinos.html">Destinos</a></li>
+            <li><a href="./Ofertas.html">Ofertas</a></li>
+            <li><a href="./Contato.html">Contato</a></li>
+          </ul>
 				  </div>
 				
 			  </div>
 			<div id="social" class="col-md-2 footer-social animated fadeInDown">
-				<h4>Siga-Nos →</h4>
+				<h4>Siga-Nos</h4>
 				<ul>
 				  <li><a href="https://www.facebook.com/">Facebook</a></li>
 				  <li><a href="https://twitter.com/">Twitter</a></li>
@@ -180,9 +318,9 @@
 			  </div>
 		  </div>
 	  </footer>
-	  
 			<p class="copyright"> Copyright © 2022, CODE TRAVEL.</p>
-		   
-	</div>
+	  </div>
+    <!----------- Footer ------------>
+    <script type="text/javascript" src="./assets/js/index.js"></script> 
 </body>
 </html>
