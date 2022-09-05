@@ -113,7 +113,7 @@ body {
   
   #Nav > ul > li > a:hover {
 	
-	color: #6298e1;
+	color: #339af0;
 	font-size: 14px;
 	padding: 3px;
 	transition: color 900ms;
@@ -261,7 +261,7 @@ body {
 	
 	font-size: medium;
 	text-transform: uppercase;
-	margin-top: 40px;
+	margin-top: 15px;
 	padding: 15px;
 }
 #PG {
@@ -308,6 +308,7 @@ body {
 	display: inline-table;
 	margin-left: 1%;
 	margin-right: 1%;
+	margin-top: 2%;
 }
   
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { 

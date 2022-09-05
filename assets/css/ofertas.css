@@ -8,12 +8,6 @@
   padding: 0; 
 }
 
-body {
-	margin: 0;
-	padding: 0; 
-  background-color: white;
-  
-}
   /* -----  Header ----- */
   .mobile {
 	display: none;
@@ -107,7 +101,7 @@ body {
   
   #Nav > ul > li > a:hover {
 	
-	color: #6298e1;
+	color: #339af0;
 	font-size: 14px;
 	padding: 3px;
 	transition: color 900ms;
@@ -206,13 +200,14 @@ body {
 	  transform: translate( -50%, 0%);
 	  margin: auto;
 	}  
-	
-	  
+	 
 	.content {
 	  display: none;
 	} 
-  }	 
+}	 
  /* ------ header end ----- */ 
+
+ /* --------- Main --------- */
 
 #Viagens {
 	margin: auto;
@@ -257,14 +252,14 @@ body {
   height: 400px;
   
 }
-
+/* ------ Main ------- */
 
 /* FORMAS DE PAGAMENTO */
 .formas {
 	
 	font-size: medium;
 	text-transform: uppercase;
-	margin-top: 40px;
+	margin-top: 15px;
 	padding: 15px;
 }
 #PG {
@@ -308,6 +303,7 @@ body {
 .footer-brand {
 	margin-left: 3%;
 	margin-right: 3%;
+	margin-top: 2%;
 }
   
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { 
@@ -478,7 +474,7 @@ body {
 
 
   .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { 
-    margin-right: 10%; 
+    margin-right: 5%; 
     border-left:solid 2px rgba(255,255,255,0.10); 
     display: block;
     align-items: center;

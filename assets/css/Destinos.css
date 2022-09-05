@@ -106,7 +106,7 @@ body {
   
   #Nav > ul > li > a:hover {
 	
-	color: #6298e1;
+	color: #339af0;
 	font-size: 14px;
 	padding: 3px;
 	transition: color 900ms;
@@ -218,7 +218,7 @@ body {
 	
 	font-size: medium;
 	text-transform: uppercase;
-	margin-top: 40px;
+	margin-top: 15px;
 	padding: 15px;
 }
 #PG {
@@ -240,6 +240,9 @@ body {
 	width: 80px;
 }
 /* FORMAS DE PAGAMENTO */
+
+/* ---------------- Main  --------------- */
+
 #Viagens {
 	margin: 15% 10% 10% 10%;
 	font-weight:bold;
@@ -264,46 +267,15 @@ body {
 	font-style: italic;
 	font-size: max(18px, 1.3vw);
 }
-.card-img-overlay {
-	
+.card-img-overlay {	
 	margin-top: 15%;
 	font-size: 20px; 
 	font-weight:bold;
 }
 #logo > a > img {
 	margin-left: 50%;
-	
-	
-}
-#container {
-	display: flex;
-	justify-self: center;
-	position: relative;
-	width: 69vw;
-	margin-left: 15%;
-	margin-right: 15%;
-	padding:;
-	border-style: outset;
-	background-color: rgba(129, 129, 129, 0.322);
-	color: white;
-
-}
-#form {
-	display: inline-flex;
-}
-#date {
-	display: inline-block;
-	height: 40px;
-	width: 175px;
-}
-.container-sm {
-	
-    height: 45vh;
-    padding: 2rem;
-	margin: 1% 20% 1% 20%;
 }
 .card-img {
-	
 	object-fit: cover;
 	height: 60vh;
 	width: 100vw;
@@ -321,21 +293,9 @@ body {
 		margin-left: 55px;
 		margin-right: 55px;
 	}
-	#Viagens {
-		
-	}
+	
 }
-.footer-bs {
-	margin-top: 5%;
-	background-color: #3c3d41;
-	opacity: 0.7;
-	padding: 20px 20px;
-	color: rgba(255,255,255,1.00);
-	border-bottom-right-radius: 6px;
-	border-top-left-radius: 0px;
-	border-bottom-left-radius: 6px;
-	width: 100%;
-}
+
 #titulo {
 	margin-top: 40px;
 	margin-bottom: 10px;
@@ -349,53 +309,25 @@ body {
 	background-color: #339af0;
 	font-size: large;
 }
-#De {
-	margin-top: 35px;
-	height: 40px;
-	width: 60px;
-}
-#Para {
-	
-	width: 60px;
-	height: 40px;
-	transform: translate(-475%, 275%);
-	border-top-left-radius: 0.375rem;
-	border-bottom-left-radius: 0.375rem;
-}
-#data2 {
-	height: 40px;
-	width: 175px;
-	
-}
-#data1 {
-	height: 40px;
-	width: 175px;
-	
-}
-#dataida {
-	font-size: small;
-	
-}
-#datavolta {
-	font-size: small;
-	
-}
-#passageiro {
-	transform: translate( 2%, -70%);
-}
-.col-3 {
-	display: flex;
-	position: relative;
-}
+/* ---------------- Main  --------------- */
 
+/*                  FOOTER                */
 
 .row2 {
 	flex-wrap: nowrap;
 	display: flex;
 }
-
-/*         FOOTER              */
-
+.footer-bs {
+	margin-top: 5%;
+	background-color: #3c3d41;
+	opacity: 0.7;
+	padding: 20px 20px;
+	color: rgba(255,255,255,1.00);
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+	width: 100%;
+}
 .footer-bs {
 	display: block;
 	background-color: #3c3d41;
@@ -416,6 +348,7 @@ body {
 	display: inline-table;
 	margin-left: 1%;
 	margin-right: 1%;
+	margin-top: 2%;
 }
   
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { 

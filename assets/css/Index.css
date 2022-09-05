@@ -56,13 +56,14 @@
 
 #logo-footer > img {
   margin: auto;
-  max-width: 340px;
-  max-height: 100px;
+  max-width: 140px;
+  max-height: 120px;
   /*transform: translate( -10%, 10%); */
 }
 .footer-brand {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
 }
 .footer-bs .footer-brand h2 { 
   margin:0px auto 20px; 
@@ -174,10 +175,11 @@
   font-size:14px; color:rgba(255,255,255,0.70);
   position: relative;
   padding-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .form-control {
-  width: 350px;
+  width: 380px;
   height: 35px;
   
 }
@@ -209,7 +211,7 @@
 
 
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { 
-  margin-right: 10%; 
+  margin-right: 5%; 
   border-left:solid 2px rgba(255,255,255,0.10); 
   display: block;
   align-items: center;
@@ -393,7 +395,7 @@
 
 }
 .active {
-  margin-left: 90px;
+  margin-left: 160px;
   align-self: center;
   text-transform: uppercase;
   
@@ -477,7 +479,7 @@ li, a {
 
 .navbar > ul > li > a:hover {
   
-  color: #6298e1;
+  color: #339af0;
   font-size: 14px;
   padding: 3px;
   transition: color 900ms;
