@@ -1,20 +1,10 @@
- var button = document.getElementById("hamburguer");
-
-button.addEventListener("click", function(){
-    var listmenu = document.getElementById("listmenu");
-
-    listmenu.classList.toggle("hide"); 
-}) 
-
-
-//*var button = document.getElementById("hamburguer");
-//button.addEventListener("click", function(){
-//    var listmenu = document.getElementById("listmenu");
-
-//    if(listmenu.style.display === "none") {
-//        listmenu.style.display = "block";
- //   }else {
- //       listmenu.style.display = "none";
- //   }
-
-//});   
+ 
+ function menuShow() {
+    let menuMobile = document.querySelector('.listmenu');
+    if(menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+    }else {
+        menuMobile.classList.add('open');
+    }
+ }
+ 

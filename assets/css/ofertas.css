@@ -138,58 +138,60 @@
 	  padding: 10px;
 	  color: rgb(215, 215, 215);
 	  
-	}
-	
-	.menu-icon:hover{
-	  font-size: 16.3px;
-	  color: white;
-	  transition: color 500ms;
-	  transition-duration: 0.4s;
-	  transition-timing-function: ease-in-out;
-	}
-	
-	#listmenu {
-	  
-	  position: absolute;
-	  margin-top: 12px;
-	  padding-left: 0;
-	  cursor: pointer;
-	}
-	#listmenu > ul {
-	  position: absolute;
-	  width: 105vw;
-	  display: block;
-	  float: left;
-	  text-align: start;
-	  margin-left: -45px;
-	  
-	  
-	}
-	#listmenu ul li a {
-	  color: rgb(215, 215, 215);
-	  display: block;
-	  background-color: #3c3d41;
-	  padding: 10px;
-	  font-size: 15px;
-	  font-weight: 500;
-	  text-decoration: none;
-	}
-	#listmenu > ul > li > a:hover {
-	  color: #339af0;
-	  transition: color 900ms;
-	  transition-duration: 0.4s;
-	  transition-timing-function: ease-in-out;
-	}
-	
-	.hide {
-	  display: none;
-	}
-   
-	#listmenu > a {
-	  margin-top: 2px;
-	  padding: 5px 10px;
-	  position: relative;
-	}
+	} 
+	  .btn-ham {
+  	  height: 10px;
+  	  width: 15px;
+  	  color: #e8eff8;
+  	  background-color: transparent;
+  	  border: none;
+  	  cursor: pointer;
+    }
+    .btn-ham:hover{
+  	  font-size: 16px;
+  	  color: #339af0;
+  	  transition: color 500ms;
+  	  transition-duration: 0.4s;
+  	  transition-timing-function: ease-in-out;
+    }
+    .listmenu {
+  	display: none;
+  	position: absolute;
+  	margin-top: 10px;
+  	padding-left: 0;
+  	cursor: pointer;
+    }
+    .listmenu > ul {
+  	position: absolute;
+  	width: 105vw;
+  	display: block;
+  	float: left;
+  	text-align: start;
+  	margin-left: -45px;
+    }
+    .listmenu ul li a {
+  	color: rgb(215, 215, 215);
+  	display: block;
+  	background-color: #3c3d41;
+  	padding: 10px;
+  	font-size: 15px;
+  	font-weight: 500;
+  	text-decoration: none;
+    }
+    .listmenu > ul > li > a:hover {
+  	color: #339af0;
+  	transition: color 900ms;
+  	transition-duration: 0.4s;
+  	transition-timing-function: ease-in-out;
+    }
+    .listmenu > a {
+  	  margin-top: 2px;
+  	  padding: 5px 10px;
+  	  position: relative;
+    }
+    .open {
+  	display: block;
+    }
 	.logo-mob > a > img {
   
 	  max-width: 120px;

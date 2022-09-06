@@ -498,8 +498,6 @@ li, a {
 }
 main {
   height: 80vh;
-
-   
   display: flex;
   justify-content: center;
   align-items: center;
@@ -533,31 +531,38 @@ main {
     opacity: 0.9;
     transition: background 500ms ease-out;
   }
-  
-  .menu-icon {
-    position: absolute;
+  .btn-ham {
+    height: 10px;
+    width: 10px;
+    color: #e8eff8;
+    background-color: transparent;
+		border: none;
     cursor: pointer;
-    padding: 15px;
-    color: rgb(215, 215, 215);
-    
   }
-  
-  .menu-icon:hover{
-    font-size: 16.3px;
-    color: white;
+  .btn-ham:hover{
+    font-size: 13.4px;
+    color: #339af0;
     transition: color 500ms;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
   }
+  #hamburguer {
+    font-size: 2rem;
+  }
+  .menu-icon {
+    position: absolute;
+    padding: 15px;
+    color: rgb(215, 215, 215);
+  }
   
-  #listmenu {
-    
+  .listmenu {
+    display: none;
     position: absolute;
     margin-top: 15px;
     padding-left: 0;
     cursor: pointer;
   }
-  #listmenu > ul {
+  .listmenu > ul {
     position: absolute;
     width: 100vw;
     display: block;
@@ -566,7 +571,7 @@ main {
     margin-left: -15px;
     
   }
-  #listmenu ul li a {
+  .listmenu ul li a {
     color: rgb(215, 215, 215);
     display: block;
     background-color: #3c3d41;
@@ -574,18 +579,18 @@ main {
     font-size: 15px;
     font-weight: 500;
   }
-  #listmenu > ul > li > a:hover {
+  .listmenu > ul > li > a:hover {
     color: #339af0;
     transition: color 900ms;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
   }
   
-  .hide {
-    display: none;
+  .open {
+    display: block;
   }
  
-  #listmenu > a {
+  .listmenu > a {
     margin-top: 2px;
     padding: 5px 10px;
     position: relative;
@@ -593,10 +598,12 @@ main {
   .logo-mob > a > img {
 
     max-width: 120px;
-    max-height: 60px;
-    position: fixed;
-    align-self: center;
-    transform: translate( -60%, 10%);
+	  max-height: 60px;
+	  position: absolute;
+	  align-self: center;
+	  display: inline;
+	  transform: translate( -50%, 16%);
+	  margin: auto;
   }  
   
     
